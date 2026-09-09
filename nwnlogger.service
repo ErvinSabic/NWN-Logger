@@ -1,0 +1,11 @@
+[Unit]
+Description=Python 3 Logging Service for Neverwinter Nights on Linux
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/nwnlogger
+EnvironmentFile=-%h/.config/nwnlogger/config.env
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
