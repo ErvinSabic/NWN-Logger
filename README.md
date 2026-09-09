@@ -13,7 +13,7 @@ Once it's installed it waits for the game to open, when it does open it'll wait 
 ## Install
 ```sh
 git clone git@github.com:ErvinSabic/NWN-Logger.git
-cd NWNLogger
+cd NWN-Logger
 pipx install .
 # Don't forget the dot it's very important ^
 ```
