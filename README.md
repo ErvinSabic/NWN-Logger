@@ -1,5 +1,5 @@
-# NWN Log Archiver
-This is a simple log archiver for the game Neverwinter Nights for users who are on Linux with systemd. I repeatedly forgot to save my chat logs from RP sessions so I wanted a logger I set and forget. This is that logger.
+# NWN Logger
+This is a simple logger for the game Neverwinter Nights for users who are on Linux with systemd. I repeatedly forgot to save my chat logs from RP sessions so I wanted a logger I set and forget. This is that logger.
 
 ## How it works
 Once it's installed it waits for the game to open, when it does open it'll wait for it to close and when it does, it'll save the logs to either the default place in your home directory here: `~/NWN Logs` or in whatever directory you specify. It makes a timestamped folder so nothing gets overwritten. 
@@ -12,7 +12,7 @@ Once it's installed it waits for the game to open, when it does open it'll wait 
 
 ## Install
 ```sh
-git clone git@github.com:ErvinSabic/NWN-Logger.git
+git clone https://github.com/ErvinSabic/NWN-Logger.git
 cd NWN-Logger
 pipx install .
 # Don't forget the dot it's very important ^
