@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "NWNLogger"
-version = "0.1.0"
+version = "0.1.1"
 description = "Saves your NWN Logs automatically on game close in the background"
 requires-python=">=3.9"
 dependencies = ["psutil","python-dotenv"]
